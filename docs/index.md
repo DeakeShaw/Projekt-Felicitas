@@ -1,17 +1,45 @@
-# Welcome to MkDocs
+# Willkommen 👋
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Diese Seite hilft euch beim Umstieg von Windows auf Linux – und ist
+danach eure dauerhafte Anlaufstelle, wenn ihr im Alltag mal nicht
+weiterwisst.
 
-## Commands
+Ihr müsst hier nichts auswendig lernen. Schaut einfach immer dann vorbei,
+wenn ihr eine Frage habt – egal ob vor dem Umstieg oder Monate später.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! info "Noch Fragen?"
+    Wenn ihr hier nicht weiterkommt: einfach kurz über **Wire** melden.
+    Diese Seite wird laufend ergänzt – wenn euch etwas fehlt, sagt uns Bescheid.
 
-## Project layout
+## Wo möchtest du starten?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div class="grid cards" markdown>
+
+-   :material-checkbox-marked-outline:{ .lg .middle } **Checkliste**
+
+    ---
+
+    Steht der Umstieg bei euch bald an? Hier findet ihr alles, was vorher
+    erledigt sein sollte.
+
+    [:octicons-arrow-right-24: Zur Checkliste](einrichtung/checkliste.md)
+
+-   :material-apps:{ .lg .middle } **Programme**
+
+    ---
+
+    Übersicht aller Programme auf den neuen Rechnern – inkl. Links und
+    Anleitungen.
+
+    [:octicons-arrow-right-24: Zur Übersicht](einrichtung/programme/programme.md)
+
+<!-- -   :material-help-circle-outline:{ .lg .middle } **Was möchtest du tun?**
+
+    ---
+
+    Du weißt nicht, welches Programm du brauchst? Hier sucht ihr nach
+    Aufgabe statt nach Programmname.
+
+    [:octicons-arrow-right-24: Zur Aufgaben-Übersicht](aufgaben.md) -->
+
+</div>
