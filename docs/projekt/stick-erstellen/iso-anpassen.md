@@ -11,7 +11,7 @@ apt install -y flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-=== "Chrome"
+=== "Chromium"
 
     ``` sh
     apt install -y chromium
@@ -19,7 +19,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
     xdg-settings set default-web-browser chromium-browser.desktop
 
     sed -i '/^Exec=/ s/\(%[uUfF]\|$\)/ --password-store=basic \1/' /usr/share/applications/chromium-browser.desktop
-    sed -i 's/Name\[de\]=Chromium-Webbrowser/Name[de]=Chrome/' /usr/share/applications/chromium-browser.desktop
+    sed -i 's/Name\[de\]=Chromium-Webbrowser/Name[de]=Chromium/' /usr/share/applications/chromium-browser.desktop
     ```
 
 === "Tesseract"
@@ -94,10 +94,16 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
     cp /usr/share/applications/libreoffice-startcenter.desktop /etc/skel/Desktop/
     ```
 
-=== "Chrome"
+=== "Chromium"
 
     ``` sh
     cp /usr/share/applications/chromium-browser.desktop /etc/skel/Desktop/
+    ```
+
+=== "Firefox"
+
+    ``` sh
+    cp /usr/share/applications/firefox.desktop /etc/skel/Desktop/
     ```
 
 === "NAPS2"
@@ -115,7 +121,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 alle ausführbar machen  
 `chmod +x /etc/skel/Desktop/*.desktop`
 
-## Chrome-Bookmarks hinzufügen
+## Chromium-Bookmarks hinzufügen
 
 ``` sh
 mkdir -p /etc/skel/.config/chromium/Default/
@@ -140,6 +146,14 @@ cat > /etc/skel/.config/chromium/Default/Bookmarks << 'EOF'
                     "name": "Hilfe",
                     "type": "url",
                     "url": "https://deakeshaw.github.io/Projekt-Felicitas/"
+                },
+                {
+                    "date_added": "13324876811749995",
+                    "guid": "00000000-0000-0000-0000-000000000001",
+                    "id": "6",
+                    "name": "MJH",
+                    "type": "url",
+                    "url": "https://stiftunghaar.myjugendhilfe.de/Login.aspx"
                 }
             ],
             "date_added": "13000000000000000",
@@ -173,7 +187,7 @@ cat > /etc/skel/.config/chromium/Default/Bookmarks << 'EOF'
 EOF
 ```
 
-## Chrome-Add-Ons hinzufügen
+## Chromium-Add-Ons hinzufügen
 
 ``` sh
 sudo mkdir -p /etc/chromium/policies/managed

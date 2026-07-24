@@ -42,3 +42,4 @@ cp /home/mitarbeiter/Desktop/com.rustdesk.RustDesk.desktop /home/admin-sh/Deskto
 chmod +x /home/admin-sh/Desktop/*.desktop
 chown -R admin-sh:admin-sh /home/admin-sh/Desktop/*.desktop
 
+rm /home/mitarbeiter.sh

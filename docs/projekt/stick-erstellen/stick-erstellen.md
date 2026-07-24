@@ -4,9 +4,9 @@
 
 Debian Package (`.deb`) Von der offiziellen Github Seite die [neuste Version](https://github.com/balena-io/etcher/releases/) Downloaden
 
-Im Terminal mit `sudo apt install ~/Downloads/balena-etcher_******_amd64.deb` installieren.
+Im Terminal mit `sudo apt install ~/Downloads/balena-etcher_*` installieren.
 
-Danach kann die Datei mit `sudo rm ~/Dowloads/.balena-etcher_******_amd64.deb` gelößcht werden.
+Danach kann die Datei mit `sudo rm ~/Dowloads/balena-etcher_*` gelößcht werden.
 
 ## ISO auf Stick spielen
 
@@ -14,7 +14,7 @@ Danach kann die Datei mit `sudo rm ~/Dowloads/.balena-etcher_******_amd64.deb` g
 
 ![alt text](../../assets/images/balena-etcher/balena-iso-select.png)
 
-![alt text](../../assets/images/balena-etcher/balena-target.png)
+![alt text](../../assets/images/balena-etcher/balena-target.png)                                                                                                                                                                                       
 
 ![alt text](../../assets/images/balena-etcher/balena-target-select.png)
 

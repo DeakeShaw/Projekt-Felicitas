@@ -107,7 +107,7 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 extra_javascript:
-  - javascripts/checklist-save.js
+  - assets/javascripts/checklist-save.js
 
 plugins:
   - git-revision-date-localized:
@@ -121,12 +121,9 @@ plugins:
 nav:
   - Willkommen: index.md
   - Checkliste zum Umstieg: einrichtung/checkliste.md
-  # - Hilfe für Einrichtungen:
-  #   - einrichtung/index.md
-  #   - E-Mail: einrichtung/mail.md
-  #   - Drucker & Scanner: einrichtung/drucker.md
-  #   - Benutzer verwalten: einrichtung/nutzer.md
-  #   - Passwort-Manager: einrichtung/keepassxc.md
+  - Sicherheit:
+    - Legitimierung: einrichtung/sicherheit/legitimierung.md
+    - Schlüsselbund: einrichtung/sicherheit/schluesselbund.md
   - Programme: 
     - einrichtung/programme/programme.md
     # - Thunderbird: einrichtung/programme/thunderbird.md
@@ -134,6 +131,7 @@ nav:
     # - NAPS2: einrichtung/programme/naps2.md
     # - KeePassXC: einrichtung/programme/keepassxc.md
     # - Wire: einrichtung/programme/wire.md
+    # - einrichtung/programme/epson.md
   - Projekt-Dokumentation (IT):
     - projekt/index.md
     - Boot-Stick-Vorbereiten:
