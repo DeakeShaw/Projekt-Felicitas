@@ -131,7 +131,10 @@ nav:
     # - NAPS2: einrichtung/programme/naps2.md
     # - KeePassXC: einrichtung/programme/keepassxc.md
     # - Wire: einrichtung/programme/wire.md
-    # - einrichtung/programme/epson.md
+
+    - Epson Scan2:
+      # - einrichtung/programme/epson/nutzung.md
+      - einrichtung/programme/epson/install.md
   - Projekt-Dokumentation (IT):
     - projekt/index.md
     - Boot-Stick-Vorbereiten:

@@ -1,4 +1,4 @@
-# Programme unter Linux
+# Programme - Übersicht
 
 Auf den neuen Linux-Rechnern sind verschiedene Programme bereits vorinstalliert.
 Die meisten davon kennt ihr eventuell schon von Windows, manche sind neu –
@@ -23,29 +23,30 @@ hier findet ihr eine kurze Übersicht, wofür ihr sie braucht.
 
 ## Internet & Kommunikation
 
-| Programm | Wofür? | Entspricht unter Windows | Link |
-|---|---|---|---|
-| **Firefox** | Im Internet surfen | Edge / Chrome | [firefox.com](https://www.firefox.com) |
-| **Chrome** | Im Internet surfen | Edge / Firefox | [chrome.com](https://www.chrome.com) |
-| **Thunderbird** | E-Mails schreiben und empfangen | Outlook | [thunderbird.net](https://www.thunderbird.net) |
-| **Wire** | Interne Kommunikation, Chat | Teams | [wire.com](https://wire.com) |
+| Programm        | Wofür?                          | Entspricht unter Windows | Link                                           |
+| --------------- | ------------------------------- | ------------------------ | ---------------------------------------------- |
+| **Firefox**     | Im Internet surfen              | Edge / Chrome            | [firefox.com](https://www.firefox.com)         |
+| **Chrome**      | Im Internet surfen              | Edge / Firefox           | [chrome.com](https://www.chrome.com)           |
+| **Thunderbird** | E-Mails schreiben und empfangen | Outlook                  | [thunderbird.net](https://www.thunderbird.net) |
+| **Wire**        | Interne Kommunikation, Chat     | Teams                    | [wire.com](https://wire.com)                   |
 
 ## Büro & Dokumente
 
-| Programm | Wofür? | Entspricht unter Windows | Link |
-|---|---|---|---|
-| **LibreOffice Writer** | Textdokumente, Briefe | Word | [libreoffice.org](https://www.libreoffice.org) |
-| **LibreOffice Calc** | Tabellen, Berechnungen | Excel | [libreoffice.org](https://www.libreoffice.org) |
-| **LibreOffice Impress** | Präsentationen | PowerPoint | [libreoffice.org](https://www.libreoffice.org) |
+| Programm                | Wofür?                 | Entspricht unter Windows | Link                                           |
+| ----------------------- | ---------------------- | ------------------------ | ---------------------------------------------- |
+| **LibreOffice Writer**  | Textdokumente, Briefe  | Word                     | [libreoffice.org](https://www.libreoffice.org) |
+| **LibreOffice Calc**    | Tabellen, Berechnungen | Excel                    | [libreoffice.org](https://www.libreoffice.org) |
+| **LibreOffice Impress** | Präsentationen         | PowerPoint               | [libreoffice.org](https://www.libreoffice.org) |
 
 ## Sonstige Werkzeuge
 
-| Programm | Wofür? | Entspricht unter Windows | Link |
-|---|---|---|---|
-| **VLC** | Videos und Musik abspielen | VLC / Windows Media Player | [videolan.org](https://www.videolan.org) |
-| **NAPS2** | Dokumente einscannen | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com) |
-| **KeePassXC** | Passwörter sicher speichern | – | [keepassxc.org](https://keepassxc.org) |
-| **MyJugendHilfe** | Fachsoftware für die Einrichtung | – | – |
+| Programm                                 | Wofür?                           | Entspricht unter Windows      | Link                                     |
+| ---------------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------- |
+| **VLC**                                  | Videos und Musik abspielen       | VLC / Windows Media Player    | [videolan.org](https://www.videolan.org) |
+| **NAPS2**                                | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       |
+| **[Epson Scan2](../programme/epson.md)** | Quittungen einscannen            | ScanSnap                      | [epson.de](https://www.epson.de)         |
+| **KeePassXC**                            | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   |
+| **MyJugendHilfe**                        | Fachsoftware für die Einrichtung | –                             | –                                        |
 
 ## 🧪 Zusätzlich verfügbar (optional, nach Bedarf)
 
@@ -53,18 +54,14 @@ Diese Programme sind bereits getestet und können bei Bedarf installiert
 werden. Sie gehören aber nicht zur Standardausstattung – wenn ihr eines
 davon braucht, meldet euch kurz bei uns.
 
-| Programm | Wofür? | Genutzt Entspricht unter Windows | Link |
-|---|---|---|---|
-| **Brave** | Im Internet surfen | Chrome | [brave.com](https://www.brave.com) |
+| Programm  | Wofür?             | Genutzt Entspricht unter Windows | Link                               |
+| --------- | ------------------ | -------------------------------- | ---------------------------------- |
+| **Brave** | Im Internet surfen | Chrome                           | [brave.com](https://www.brave.com) |
 
 ---
 
 ## Häufige Fragen
 
 ??? question "Womit öffne ich PDF-Dateien?"
-    PDFs öffnen sich automatisch in der vorinstallierten PDF-Anzeige, wenn ihr
+    PDFs öffnen sich automatisch in der vorinstallierten PDF-Anzeige (in diesem Fall ist es vermutlich einer der Browser), wenn ihr
     doppelt darauf klickt. Kein extra Programm nötig.
-
-??? question "Wie scanne ich ein Dokument ein?"
-    Öffnet **NAPS2**, wählt euren Scanner aus und klickt auf "Scannen". Mehr
-    dazu in der [Scan-Anleitung](anleitungen/scannen.md).

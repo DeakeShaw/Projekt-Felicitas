@@ -96,9 +96,6 @@ Du kannst alle deine Schlüsselbunde im Programm **"Passwörter und Verschlüsse
     **F: Kann ich mehrere Schlüsselbunde haben?**  
     A: Ja, das ist normal. Jede App kann ihren eigenen Schlüsselbund anlegen. Du kannst aber auch alles in einem zusammenfassen.
 
-    **F: Was passiert, wenn ich meinen Schlüsselbund-Passwort vergesse?**  
-    A: Dann kannst du nicht mehr auf die gespeicherten Passwörter zugreifen. Du müsstest den Schlüsselbund löschen und neu anlegen.
-
     **F: Ist der Schlüsselbund sicher?**  
     A: Ja, wenn dein Benutzerpasswort sicher ist. Der Schlüsselbund nutzt starke Verschlüsselung (AES-256). Solange nur du Zugriff auf deinen Computer hast, sind deine Daten sicher.
 
